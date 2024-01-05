@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+      ),
+      url("background.jpg");
+    /* background-size: cover; */
+    background-position: top;
+  }
+
+  header {
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+    color: #fff;
+  }
+  .left {
+    margin-left: 160px;
+  }
+  .left img {
+    width: 150px;
+    height: auto;
+  }
+  .form-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .form-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 500px;
+  }
+.form{
+    width: 370px;
+    display: flex;
+    padding-left: 80px;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #b3b3b3;
+}
+.form h1{
+  font-size: 32px;
+  margin-top: 50px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.f-input{
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  width: 300px;
+}
+.f-input input{
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  height: 30px;
+  border-radius: 4px;
+  background: #333;
+}
+.f-input button{
+  width: 292px;
+  padding: 10px;
+  margin-left: 4px;
+  margin-top: 20px;
+  height: 50px;
+  border: none;
+  border-radius: 4px;
+  background-color: red;
+  color: #fff;
+  font-weight: bold;
+  font-size: large;
+}
+.RemNeed{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  font-size: small;
+  color: #b3b3b3;
+}
+.RemNeed a{
+  text-decoration: none;
+  color: #b3b3b3;
+  font-weight: bolder;
+}
+.rmee{
+  display: flex;
+  align-items: center;
+  margin-top: -12px;
+}
+.f-input .p1{
+    margin-top: 50px;
+    color: #b3b3b3;
+  }
+  .f-input .p1 a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: large;
+  }
+.f-input .p2{
+    margin-top: 10px;
+  }
+.f-input .p3{
+  font-weight: bold;    
+  font-style: 15px;
+  color: blue;
+  padding-bottom: 100px;
+
+  }
+footer{
+  background:rgba(0, 0, 0, 0.75);
+  margin-top: 200px;
+}
+footer >p{
+  color:#b3b3b3 ;
+  margin-left: 139px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.f-box{
+  display: flex;
+  justify-content: space-around;
+
+}
+.boxes li{
+  list-style: none;
+  padding: 10px 10px;
+}
+.boxes li>a{
+  text-decoration: none;
+  color: #b3b3b3;
+}
+footer select{
+  color:#b3b3b3 ;
+  margin-left: 139px;
+  width: 110px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  background:rgba(0, 0, 0, 0.75);
+}
